@@ -22,6 +22,13 @@ public:
     float brightness() const;
     int temperature() const;
     
+    void setTemperature(int t);
+    void setBrightness(float b);
+    
+    void turnOn();
+    void turnOff();
+    
+    
 private:
     bool state_;
     float brightness_;
