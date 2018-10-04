@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		22075F4821660BF200A7BC97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22075F4721660BF200A7BC97 /* main.cpp */; };
 		22075F5021660CC900A7BC97 /* lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22075F4E21660CC900A7BC97 /* lamp.cpp */; };
+		22075F53216619BB00A7BC97 /* rational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22075F51216619BB00A7BC97 /* rational.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		22075F4721660BF200A7BC97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		22075F4E21660CC900A7BC97 /* lamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lamp.cpp; sourceTree = "<group>"; };
 		22075F4F21660CC900A7BC97 /* lamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lamp.hpp; sourceTree = "<group>"; };
+		22075F51216619BB00A7BC97 /* rational.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rational.cpp; sourceTree = "<group>"; };
+		22075F52216619BB00A7BC97 /* rational.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rational.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				22075F4721660BF200A7BC97 /* main.cpp */,
 				22075F4E21660CC900A7BC97 /* lamp.cpp */,
+				22075F51216619BB00A7BC97 /* rational.cpp */,
+				22075F52216619BB00A7BC97 /* rational.hpp */,
 				22075F4F21660CC900A7BC97 /* lamp.hpp */,
 			);
 			path = LK3Demo_Incapsul;
@@ -125,6 +130,7 @@
 			files = (
 				22075F4821660BF200A7BC97 /* main.cpp in Sources */,
 				22075F5021660CC900A7BC97 /* lamp.cpp in Sources */,
+				22075F53216619BB00A7BC97 /* rational.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
