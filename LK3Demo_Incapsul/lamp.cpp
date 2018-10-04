@@ -6,7 +6,7 @@
 //  Copyright © 2018 Павел Тимош. All rights reserved.
 //
 
-#include "lamp.h"
+#include "lamp.hpp"
 
 Lamp::Lamp()
     : state_(false), brightness_(100), temperature_(2700)

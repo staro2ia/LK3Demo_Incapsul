@@ -11,6 +11,7 @@
 using namespace std;
 
 #include "lamp.hpp"
+#include "rational.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -20,6 +21,10 @@ int main(int argc, const char * argv[]) {
     lamp1.setTemperature(4000);
     lamp1.setBrightness(20);
     lamp1.turnOn();
+    
+    
+    Rational rt1, rt2;
+    
     
     
     
