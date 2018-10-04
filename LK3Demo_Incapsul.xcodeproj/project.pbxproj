@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22075F4821660BF200A7BC97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22075F4721660BF200A7BC97 /* main.cpp */; };
+		22075F5021660CC900A7BC97 /* lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22075F4E21660CC900A7BC97 /* lamp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		22075F4421660BF200A7BC97 /* LK3Demo_Incapsul */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LK3Demo_Incapsul; sourceTree = BUILT_PRODUCTS_DIR; };
 		22075F4721660BF200A7BC97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		22075F4E21660CC900A7BC97 /* lamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lamp.cpp; sourceTree = "<group>"; };
+		22075F4F21660CC900A7BC97 /* lamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lamp.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				22075F4721660BF200A7BC97 /* main.cpp */,
+				22075F4E21660CC900A7BC97 /* lamp.cpp */,
+				22075F4F21660CC900A7BC97 /* lamp.hpp */,
 			);
 			path = LK3Demo_Incapsul;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22075F4821660BF200A7BC97 /* main.cpp in Sources */,
+				22075F5021660CC900A7BC97 /* lamp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
