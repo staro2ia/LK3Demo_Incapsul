@@ -65,9 +65,9 @@
 			children = (
 				22075F4721660BF200A7BC97 /* main.cpp */,
 				22075F4E21660CC900A7BC97 /* lamp.cpp */,
+				22075F4F21660CC900A7BC97 /* lamp.hpp */,
 				22075F51216619BB00A7BC97 /* rational.cpp */,
 				22075F52216619BB00A7BC97 /* rational.hpp */,
-				22075F4F21660CC900A7BC97 /* lamp.hpp */,
 			);
 			path = LK3Demo_Incapsul;
 			sourceTree = "<group>";

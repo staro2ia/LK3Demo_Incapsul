@@ -25,8 +25,9 @@ int main(int argc, const char * argv[]) {
     
     Rational rt1, rt2;
     
+    cout << (rt1 < rt2);
     
-    
+    cout << rt1;
     
     std::cout << "Hello, World!\n";
     return 0;
