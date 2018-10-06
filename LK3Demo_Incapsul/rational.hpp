@@ -62,6 +62,19 @@ public:
         
     }
     
+    
+    /**
+     Перегрузка оператора присваивания
+
+     @param arg2 присваиваемое значение
+     @return значение переменной
+     */
+    Rational& operator=( const Rational& arg2 ) {
+        num_ = arg2.num_;
+        denom_ = arg2.denom_;
+        return simplify();
+    }
+    
     /**
      Обеспечивает доступ к значению числителя
      
@@ -82,10 +95,10 @@ public:
     
     // MARK:- Перегрузка арифметических операций
     /**
-     <#Description#>
+     Перегрузка оператора присваения с суммированием
 
-     @param arg2 <#arg2 description#>
-     @return <#return value description#>
+     @param arg2 второй операнд (праводопустимое выражение)
+     @return значение переменной
      */
     Rational& operator+=( const Rational& arg2 ) {
         int cmnDivisor = gcd( denom_, arg2.denom_ );
@@ -95,10 +108,10 @@ public:
     }
     
     /**
-     <#Description#>
+     Перегрузка оператора сложения
 
-     @param arg2 <#arg2 description#>
-     @return <#return value description#>
+     @param arg2 второй операнд
+     @return результат операции
      */
     Rational operator+( const Rational& arg2 ) const {
         Rational result( num_, denom_ );
